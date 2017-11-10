@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+  <bean id="triangle5" class="org.saisindhu.package5.Triangle5">
+      <property name="PointA" ref="zeropoint"/>
+      <property name="PointB" ref="onepoint"/>
+      <property name="PointC" ref="twopoint"/>
+  </bean>
+
+  <bean id="zeropoint" class="org.saisindhu.package5.Point">
+   <property name="x" value="0"/>
+   <property name="y" value="0"/>
+  </bean>
+  
+  <bean id="onepoint" class="org.saisindhu.package5.Point">
+    <property name="x" value="-20"/>
+    <property name="y" value="0"/>
+  </bean>
+  
+  <bean id="twopoint" class="org.saisindhu.package5.Point">
+    <property name="x" value="20"/>
+    <property name="y" value="0"/>
+  </bean>
+  
+</beans>
